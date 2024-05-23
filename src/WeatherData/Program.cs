@@ -16,6 +16,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+// create an array with different options for temperature, the name of the array is summaries
 var summaries = new[]
 {
     "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
